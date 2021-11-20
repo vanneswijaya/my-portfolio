@@ -1,241 +1,837 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>John Doe</title>
-        <link rel="stylesheet" href="styles.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet"
-        />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>John Doe</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
-        <!-- Icons -->
-        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- Icons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body class="bg-dark">
+    <nav class="bg-dark text-light h-16 fixed shadow-md z-50 inset-x-0">
+      <div class="max-w-6xl mx-auto px-4">
+        <div class="flex space-x-16">
+          <div>
+            <a href="" class="flex items-center py-5 px-2 hover:text-gray-300">
+              <ion-icon name="accessibility-outline"></ion-icon>
+              <h1 class="font-bold">John Doe</h1>
+            </a>
+          </div>
 
-    </head>
-    <body class="bg-dark">
+          <!-- Navigation Links -->
+          <div class="items-center space-x-1 flex">
+            <a
+              href="#AboutMe"
+              class="py-5 px-3 font-bold text-light hover:text-orange"
+              >About Me</a
+            >
+            <a
+              href="#WorkExperience"
+              class="py-5 px-3 font-bold text-light hover:text-orange"
+              >Work Experience</a
+            >
+            <a
+              href="#Education"
+              class="py-5 px-3 font-bold text-light hover:text-orange"
+              >Education</a
+            >
+            <a
+              href="#Projects"
+              class="py-5 px-3 font-bold text-light hover:text-orange"
+              >Projects</a
+            >
+            <a
+              href="#ContactMe"
+              class="py-5 px-3 font-bold text-light hover:text-orange"
+              >Contact Me</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
 
-        <nav class="bg-dark text-light h-16 fixed shadow-md z-50 inset-x-0">
-            <div class="max-w-6xl mx-auto px-4">
-                <div class="flex space-x-16">
+    <!-- About Me -->
+    <section id="AboutMe" class="pt-16">
+      <!-- Orange -->
+      <div class="absolute w-full min-h-screen">
+        <div class="absolute z-0 w-full h-1/2 bg-orange"></div>
+      </div>
 
-                    <div>
-                        <a href="" class="flex items-center py-5 px-2 hover:text-gray-300">
-                            <ion-icon name="accessibility-outline"></ion-icon>
-                            <h1 class="font-bold">John Doe</h1>
-                        </a>
-                    </div>
-
-                    <!-- Navigation Links -->
-                    <div class="items-center space-x-1 flex">
-                        <a href="#AboutMe" class="py-5 px-3 font-bold text-light hover:text-orange ">About Me</a>
-                        <a href="#WorkExperience" class="py-5 px-3 font-bold text-light hover:text-orange ">Work Experience</a>
-                        <a href="#Education" class="py-5 px-3 font-bold text-light hover:text-orange ">Education</a>
-                        <a href="#Projects" class="py-5 px-3 font-bold text-light hover:text-orange ">Projects</a>
-                        <a href="#ContactMe" class="py-5 px-3 font-bold text-light hover:text-orange ">Contact Me</a>
-                    </div>
-
-                </div>
+      <div
+        class="
+          z-10
+          flex flex-col
+          gap-y-16
+          min-h-screen
+          h-auto
+          justify-center
+          items-center
+        "
+      >
+        <!-- card -->
+        <div
+          class="
+            z-20
+            bg-white
+            flex flex-row
+            justify-between
+            p-12
+            shadow-md
+            rounded-lg
+            max-w-4xl
+          "
+        >
+          <div class="flex flex-col justify-between space-y-4 py-6 pr-10">
+            <div class="text-orange">
+              <h2 class="text-lg">Hello, I am</h2>
+              <h1 class="text-5xl py-2 font-bold text-dark">John Doe</h1>
+              <h2 class="text-lg">
+                A City University of Hong Kong Student studying computer science
+              </h2>
             </div>
-        </nav>
-
-        
-        <!-- About Me -->
-        <section id="AboutMe" class="pt-16">
-            <!-- Orange --> 
-            <div class="absolute w-full min-h-screen">
-                <div class="absolute z-0 w-full h-1/2 bg-orange">
-                </div>
+            <div class="inline-flex text-xl text-dark space-x-5">
+              <a href="">
+                <ion-icon
+                  name="logo-youtube"
+                  class="hover:text-orange"
+                ></ion-icon>
+              </a>
+              <a href="">
+                <ion-icon
+                  name="logo-twitter"
+                  class="hover:text-orange"
+                ></ion-icon>
+              </a>
+              <a href="">
+                <ion-icon
+                  name="logo-linkedin"
+                  class="hover:text-orange"
+                ></ion-icon>
+              </a>
+              <a href="">
+                <ion-icon
+                  name="logo-github"
+                  class="hover:text-orange"
+                ></ion-icon>
+              </a>
             </div>
-            
-            <div class="z-10 flex flex-col gap-y-16 min-h-screen h-auto justify-center items-center">
-                <!-- card -->
-                <div class="z-20 bg-white flex flex-row justify-between p-12 shadow-md rounded-lg max-w-4xl">
-                    <div class="flex flex-col justify-between space-y-4 py-6 pr-10">
-                        <div class="text-orange">
-                            <h2 class="text-lg">Hello, I am</h2>
-                            <h1 class="text-5xl py-2 font-bold text-dark">John Doe</h1>
-                            <h2 class="text-lg">A City University of Hong Kong Student studying computer science</h2>
-                        </div>
-                        <div class="inline-flex text-xl text-dark space-x-5">
-                            <a href="">
-                                <ion-icon name="logo-youtube" class="hover:text-orange"></ion-icon>
-                            </a>
-                            <a href="">
-                                <ion-icon name="logo-twitter" class="hover:text-orange"></ion-icon>
-                            </a>
-                            <a href="">
-                                <ion-icon name="logo-linkedin" class="hover:text-orange"></ion-icon>
-                            </a>
-                            <a href="">
-                                <ion-icon name="logo-github" class="hover:text-orange"></ion-icon>
-                            </a>       
-                        </div>
-                    </div>
-                    <img src="https://www.fillmurray.com/360/360" class="w-60 rounded-full shadow-md">
+          </div>
+          <img
+            src="https://www.fillmurray.com/360/360"
+            class="w-60 rounded-full shadow-md"
+          />
+        </div>
+        <div class="px-64 text-light text-lg text-justify">
+          <p>
+            Hi I'm John! Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Quam in, sequi voluptatibus itaque quae voluptate blanditiis
+            repellat dicta odit, sint tenetur libero ducimus velit ipsum, harum
+            est perspiciatis! Aliquid, placeat? Lorem, ipsum dolor sit amet
+            consectetur adipisicing elit. Quia repellendus nobis itaque ab
+            aliquam veniam alias, maiores officia culpa, ducimus optio, delectus
+            temporibus. Odit vitae qui cupiditate, molestias nihil labore.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work Experience -->
+    <section id="WorkExperience" class="py-28 px-0 bg-dark h-screen">
+      <div class="max-w-6xl mx-auto">
+        <!-- Title -->
+        <div class="text-center">
+          <h1 class="section-title">Work Experience</h1>
+          <p class="section-subtitle">Here's what I have done</p>
+        </div>
+
+        <!-- Cards -->
+        <div class="grid grid-cols-3 gap-10 mt-24">
+          <div
+            class="
+              z-20
+              bg-orange
+              h-full
+              rounded-md
+              shadow-lg
+              px-10
+              py-12
+              transition
+              duration-500
+              ease-in-out
+              transform
+              hover:-translate-y-1 hover:scale-105 hover:shadow-2xl
+            "
+          >
+            <ion-icon
+              name="phone-portrait-outline"
+              class="text-5xl text-dark"
+            ></ion-icon>
+            <h2 class="text-2xl text-light font-bold pt-3">
+              Software Developer
+            </h2>
+            <p class="text-light text-base">Google</p>
+            <p class="text-light text-sm">2017 - 2018</p>
+            <p class="pt-4 text-dark">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ea
+              facilis cupiditate minima, optio quos delectus! Veniam fugiat
+              expedita accusantium perspiciatis praesentium dignissimos,
+              deleniti earum illo ut aspernatur nulla dolores.
+            </p>
+          </div>
+
+          <div
+            class="
+              z-20
+              bg-orange
+              h-full
+              rounded-md
+              shadow-lg
+              px-10
+              py-12
+              transition
+              duration-500
+              ease-in-out
+              transform
+              hover:-translate-y-1 hover:scale-105 hover:shadow-2xl
+            "
+          >
+            <ion-icon
+              name="phone-portrait-outline"
+              class="text-5xl text-dark"
+            ></ion-icon>
+            <h2 class="text-2xl text-light font-bold pt-3">
+              Full Stack Developer
+            </h2>
+            <p class="text-light text-base">Amazon</p>
+            <p class="text-light text-sm">2019 - 2020</p>
+            <p class="pt-4 text-dark">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ea
+              facilis cupiditate minima, optio quos delectus! Veniam fugiat
+              expedita accusantium perspiciatis praesentium dignissimos,
+              deleniti earum illo ut aspernatur nulla dolores.
+            </p>
+          </div>
+
+          <div
+            class="
+              z-20
+              bg-orange
+              h-full
+              rounded-md
+              shadow-lg
+              px-10
+              py-12
+              transition
+              duration-500
+              ease-in-out
+              transform
+              hover:-translate-y-1 hover:scale-105 hover:shadow-2xl
+            "
+          >
+            <ion-icon
+              name="phone-portrait-outline"
+              class="text-5xl text-dark"
+            ></ion-icon>
+            <h2 class="text-2xl text-light font-bold pt-3">Data Scientist</h2>
+            <p class="text-light text-base">Netflix</p>
+            <p class="text-light text-sm">2020 - 2021</p>
+            <p class="pt-4 text-dark">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ea
+              facilis cupiditate minima, optio quos delectus! Veniam fugiat
+              expedita accusantium perspiciatis praesentium dignissimos,
+              deleniti earum illo ut aspernatur nulla dolores.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="Education" class="py-28 px-0 bg-orange h-screen">
+      <div class="max-w-6xl mx-auto">
+        <!-- Title -->
+        <div class="text-center">
+          <h1 class="text-white text-6xl font-bold">Education</h1>
+          <p class="text-dark font-bold pt-3">Here's where I have learn</p>
+        </div>
+
+        <!-- Cards -->
+        <div class="grid grid-cols-2 gap-10 mt-24">
+          <div
+            class="
+              z-20
+              bg-light
+              h-full
+              rounded-md
+              shadow-lg
+              px-10
+              py-12
+              transition
+              duration-500
+              ease-in-out
+              transform
+              hover:-translate-y-1 hover:scale-105 hover:shadow-2xl
+            "
+          >
+            <ion-icon
+              name="phone-portrait-outline"
+              class="text-5xl text-dark"
+            ></ion-icon>
+            <h2 class="text-2xl text-orange font-bold pt-3">
+              City University of Hong Kong
+            </h2>
+            <p class="text-dark text-base">BSc Computer Science</p>
+            <p class="text-dark text-sm">2017 - 2018</p>
+            <p class="pt-4 text-dark">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ea
+              facilis cupiditate minima, optio quos delectus! Veniam fugiat
+              expedita accusantium perspiciatis praesentium dignissimos,
+              deleniti earum illo ut aspernatur nulla dolores.
+            </p>
+          </div>
+
+          <div
+            class="
+              z-20
+              bg-light
+              h-full
+              rounded-md
+              shadow-lg
+              px-10
+              py-12
+              transition
+              duration-500
+              ease-in-out
+              transform
+              hover:-translate-y-1 hover:scale-105 hover:shadow-2xl
+            "
+          >
+            <ion-icon
+              name="phone-portrait-outline"
+              class="text-5xl text-dark"
+            ></ion-icon>
+            <h2 class="text-2xl text-orange font-bold pt-3">ABC High School</h2>
+            <p class="text-dark text-base">Hong Kong</p>
+            <p class="text-dark text-sm">2019 - 2020</p>
+            <p class="pt-4 text-dark">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ea
+              facilis cupiditate minima, optio quos delectus! Veniam fugiat
+              expedita accusantium perspiciatis praesentium dignissimos,
+              deleniti earum illo ut aspernatur nulla dolores.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section>
+      <div class="bg-dark text-orange w-full h-full px-20 py-36">
+        <div class="text-6xl font-bold">My projects</div>
+        <div class="h-2 w-56 rounded-3xl bg-orange"></div>
+        <div class="w-full grid grid-cols-3 gap-x-20">
+          <div class="grid grid-rows-2 gap-y-20 mt-20">
+            <a href="project.html">
+              <div
+                class="
+                  w-96
+                  h-96
+                  rounded-3xl
+                  bg-cover bg-center
+                  group
+                  relative
+                  transition
+                  duration-500
+                  ease-in-out
+                  transform
+                  hover:scale-110
+                "
+                style="
+                  background-image: url('https://images.ctfassets.net/lzny33ho1g45/26e42hoCYVettvNfCOXdRA/dfb809fb46d59abccaa50e0dd9b5a370/Microsoft_To-Do_screenshot');
+                "
+              >
+                <div
+                  class="
+                    absolute
+                    transition
+                    duration-500
+                    ease-in-out
+                    text-white
+                    w-full
+                    h-full
+                    p-10
+                    flex flex-col
+                    justify-center
+                    items-center
+                    opacity-0
+                    group-hover:opacity-100
+                    z-50
+                  "
+                >
+                  <div class="text-5xl font-bold">To-do app</div>
+                  <div class="text-3xl font-light pt-10 pl-10">
+                    Made with VueJS, TailwindCSS, and MySQL
+                  </div>
                 </div>
-                <div class="px-64 text-light text-lg text-justify">
-                    <p>
-                        Hi I'm John! 
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam in, sequi voluptatibus itaque quae voluptate blanditiis repellat dicta odit, sint tenetur libero ducimus velit ipsum, harum est perspiciatis! Aliquid, placeat?
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia repellendus nobis itaque ab aliquam veniam alias, maiores officia culpa, ducimus optio, delectus temporibus. Odit vitae qui cupiditate, molestias nihil labore.
-                    </p>
+                <div
+                  class="
+                    absolute
+                    transition
+                    duration-500
+                    ease-in-out
+                    w-full
+                    h-full
+                    opacity-0
+                    group-hover:opacity-70
+                    bg-gradient-to-b
+                    from-orange
+                    to-black
+                    rounded-3xl
+                  "
+                ></div>
+              </div>
+            </a>
+            <a href="">
+              <div
+                class="
+                  w-96
+                  h-96
+                  rounded-3xl
+                  bg-cover bg-center
+                  group
+                  relative
+                  transition
+                  duration-500
+                  ease-in-out
+                  transform
+                  hover:scale-110
+                "
+                style="
+                  background-image: url('https://images.ctfassets.net/lzny33ho1g45/26e42hoCYVettvNfCOXdRA/dfb809fb46d59abccaa50e0dd9b5a370/Microsoft_To-Do_screenshot');
+                "
+              >
+                <div
+                  class="
+                    absolute
+                    transition
+                    duration-500
+                    ease-in-out
+                    text-white
+                    w-full
+                    h-full
+                    p-10
+                    flex flex-col
+                    justify-center
+                    items-center
+                    opacity-0
+                    group-hover:opacity-100
+                    z-50
+                  "
+                >
+                  <div class="text-5xl font-bold">To-do app</div>
+                  <div class="text-3xl font-light pt-10 pl-10">
+                    Made with VueJS, TailwindCSS, and MySQL
+                  </div>
                 </div>
-                
+                <div
+                  class="
+                    absolute
+                    transition
+                    duration-500
+                    ease-in-out
+                    w-full
+                    h-full
+                    opacity-0
+                    group-hover:opacity-70
+                    bg-gradient-to-b
+                    from-orange
+                    to-black
+                    rounded-3xl
+                  "
+                ></div>
+              </div>
+            </a>
+          </div>
+          <div class="grid grid-rows-2 mt-20 gap-y-20">
+            <a href="">
+              <div
+                class="
+                  w-96
+                  h-96
+                  rounded-3xl
+                  bg-cover bg-center
+                  group
+                  relative
+                  transition
+                  duration-500
+                  ease-in-out
+                  transform
+                  hover:scale-110
+                "
+                style="
+                  background-image: url('https://images.ctfassets.net/lzny33ho1g45/26e42hoCYVettvNfCOXdRA/dfb809fb46d59abccaa50e0dd9b5a370/Microsoft_To-Do_screenshot');
+                "
+              >
+                <div
+                  class="
+                    absolute
+                    transition
+                    duration-500
+                    ease-in-out
+                    text-white
+                    w-full
+                    h-full
+                    p-10
+                    flex flex-col
+                    justify-center
+                    items-center
+                    opacity-0
+                    group-hover:opacity-100
+                    z-50
+                  "
+                >
+                  <div class="text-5xl font-bold">To-do app</div>
+                  <div class="text-3xl font-light pt-10 pl-10">
+                    Made with VueJS, TailwindCSS, and MySQL
+                  </div>
+                </div>
+                <div
+                  class="
+                    absolute
+                    transition
+                    duration-500
+                    ease-in-out
+                    w-full
+                    h-full
+                    opacity-0
+                    group-hover:opacity-70
+                    bg-gradient-to-b
+                    from-orange
+                    to-black
+                    rounded-3xl
+                  "
+                ></div>
+              </div>
+            </a>
+            <a href="">
+              <div
+                class="
+                  w-96
+                  h-96
+                  rounded-3xl
+                  bg-cover bg-center
+                  group
+                  relative
+                  transition
+                  duration-500
+                  ease-in-out
+                  transform
+                  hover:scale-110
+                "
+                style="
+                  background-image: url('https://images.ctfassets.net/lzny33ho1g45/26e42hoCYVettvNfCOXdRA/dfb809fb46d59abccaa50e0dd9b5a370/Microsoft_To-Do_screenshot');
+                "
+              >
+                <div
+                  class="
+                    absolute
+                    transition
+                    duration-500
+                    ease-in-out
+                    text-white
+                    w-full
+                    h-full
+                    p-10
+                    flex flex-col
+                    justify-center
+                    items-center
+                    opacity-0
+                    group-hover:opacity-100
+                    z-50
+                  "
+                >
+                  <div class="text-5xl font-bold">To-do app</div>
+                  <div class="text-3xl font-light pt-10 pl-10">
+                    Made with VueJS, TailwindCSS, and MySQL
+                  </div>
+                </div>
+                <div
+                  class="
+                    absolute
+                    transition
+                    duration-500
+                    ease-in-out
+                    w-full
+                    h-full
+                    opacity-0
+                    group-hover:opacity-70
+                    bg-gradient-to-b
+                    from-orange
+                    to-black
+                    rounded-3xl
+                  "
+                ></div>
+              </div>
+            </a>
+          </div>
+          <div class="grid grid-rows-2 mt-20 gap-y-20">
+            <a href="">
+              <div
+                class="
+                  w-96
+                  h-96
+                  rounded-3xl
+                  bg-cover bg-center
+                  group
+                  relative
+                  transition
+                  duration-500
+                  ease-in-out
+                  transform
+                  hover:scale-110
+                "
+                style="
+                  background-image: url('https://images.ctfassets.net/lzny33ho1g45/26e42hoCYVettvNfCOXdRA/dfb809fb46d59abccaa50e0dd9b5a370/Microsoft_To-Do_screenshot');
+                "
+              >
+                <div
+                  class="
+                    absolute
+                    transition
+                    duration-500
+                    ease-in-out
+                    text-white
+                    w-full
+                    h-full
+                    p-10
+                    flex flex-col
+                    justify-center
+                    items-center
+                    opacity-0
+                    group-hover:opacity-100
+                    z-50
+                  "
+                >
+                  <div class="text-5xl font-bold">To-do app</div>
+                  <div class="text-3xl font-light pt-10 pl-10">
+                    Made with VueJS, TailwindCSS, and MySQL
+                  </div>
+                </div>
+                <div
+                  class="
+                    absolute
+                    transition
+                    duration-500
+                    ease-in-out
+                    w-full
+                    h-full
+                    opacity-0
+                    group-hover:opacity-70
+                    bg-gradient-to-b
+                    from-orange
+                    to-black
+                    rounded-3xl
+                  "
+                ></div>
+              </div>
+            </a>
+            <a href="">
+              <div
+                class="
+                  w-96
+                  h-96
+                  rounded-3xl
+                  bg-cover bg-center
+                  group
+                  relative
+                  transition
+                  duration-500
+                  ease-in-out
+                  transform
+                  hover:scale-110
+                "
+                style="
+                  background-image: url('https://images.ctfassets.net/lzny33ho1g45/26e42hoCYVettvNfCOXdRA/dfb809fb46d59abccaa50e0dd9b5a370/Microsoft_To-Do_screenshot');
+                "
+              >
+                <div
+                  class="
+                    absolute
+                    transition
+                    duration-500
+                    ease-in-out
+                    text-white
+                    w-full
+                    h-full
+                    p-10
+                    flex flex-col
+                    justify-center
+                    items-center
+                    opacity-0
+                    group-hover:opacity-100
+                    z-50
+                  "
+                >
+                  <div class="text-5xl font-bold">To-do app</div>
+                  <div class="text-3xl font-light pt-10 pl-10">
+                    Made with VueJS, TailwindCSS, and MySQL
+                  </div>
+                </div>
+                <div
+                  class="
+                    absolute
+                    transition
+                    duration-500
+                    ease-in-out
+                    w-full
+                    h-full
+                    opacity-0
+                    group-hover:opacity-70
+                    bg-gradient-to-b
+                    from-orange
+                    to-black
+                    rounded-3xl
+                  "
+                ></div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section>
+      <div
+        class="w-full h-screen bg-orange text-dark px-20 py-36 grid grid-cols-2"
+      >
+        <div>
+          <div class="text-6xl font-bold animate-bounce">Hit me up!</div>
+          <div class="bg-dark h-2 w-56 mt-1 rounded-3xl"></div>
+          <form action="" class="mt-10">
+            <div class="grid grid-rows-4 gap-y-8">
+              <div class="grid grid-cols-2 gap-x-3">
+                <input
+                  class="rounded-3xl h-14 p-5 text-2xl"
+                  placeholder="First name"
+                  type="text"
+                />
+                <input
+                  class="rounded-3xl h-14 p-5 text-2xl"
+                  placeholder="Last name"
+                  type="text"
+                />
+              </div>
+              <input
+                class="rounded-3xl h-14 p-5 text-2xl"
+                placeholder="E-mail"
+                type="text"
+              />
+              <input
+                class="rounded-3xl h-14 p-5 text-2xl"
+                placeholder="Phone number"
+                type="text"
+              />
+              <button
+                class="
+                  rounded-3xl
+                  h-14
+                  p-5
+                  text-2xl
+                  bg-dark
+                  text-orange
+                  transition
+                  duration-500
+                  ease-in-out
+                  w-48
+                  pb-12
+                  transform
+                  hover:-translate-y-2
+                "
+              >
+                Submit
+              </button>
             </div>
+          </form>
+        </div>
+        <div class="p-20">
+          <img src="https://lukaszadam.com/monitor.svg" alt="" />
+        </div>
+      </div>
+    </section>
 
-        </section>
+    <footer>
+      <div class="width-full">
+        <div
+          class="
+            flex
+            justify-center
+            flex-col
+            p-12
+            text-center
+            mx6
+            gap-y-3
+            text-light
+          "
+        >
+          <div class="mb-2">
+            <h2 class="font-bold text-3xl">John Doe</h2>
+          </div>
 
-        <!-- Work Experience -->
-        <section id="WorkExperience" class="py-28 px-0 bg-dark h-screen">
-            <div class="max-w-6xl mx-auto">
+          <div class="flex flex-row gap-x-5 justify-center">
+            <a href="">
+              <ion-icon
+                name="logo-youtube"
+                class="hover:text-orange"
+              ></ion-icon>
+            </a>
+            <a href="">
+              <ion-icon
+                name="logo-twitter"
+                class="hover:text-orange"
+              ></ion-icon>
+            </a>
+            <a href="">
+              <ion-icon
+                name="logo-linkedin"
+                class="hover:text-orange"
+              ></ion-icon>
+            </a>
+            <a href="">
+              <ion-icon name="logo-github" class="hover:text-orange"></ion-icon>
+            </a>
+          </div>
 
-                <!-- Title -->
-                <div class="text-center">
-                    <h1 class="section-title">Work Experience</h1>
-                    <p class="section-subtitle">Here's what I have done</p>
-                </div>
+          <div class="grid-cols-5 inline-grid gap-x-12">
+            <a href="">About Me</a>
+            <a href="">Work Experience</a>
+            <a href="">Education</a>
+            <a href="">Projects</a>
+            <a href="">Contact Me</a>
+          </div>
 
-                <!-- Cards -->
-                <div class="grid grid-cols-3 gap-10 mt-24">
+          <hr />
 
-                    <div class="z-20 bg-orange h-full rounded-md shadow-lg px-10 py-12
-                    transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105
-                    hover:shadow-2xl
-                    ">
-                        <ion-icon name="phone-portrait-outline" class="text-5xl text-dark"></ion-icon>
-                        <h2 class="text-2xl text-light font-bold pt-3">Software Developer</h2>
-                        <p class="text-light text-base">Google</p>
-                        <p class="text-light text-sm">2017 - 2018</p>
-                        <p class="pt-4 text-dark">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ea facilis cupiditate minima, optio quos delectus! Veniam fugiat expedita accusantium perspiciatis praesentium dignissimos, deleniti earum illo ut aspernatur nulla dolores.
-                        </p>
-
-                    </div>
-
-                    <div class="z-20 bg-orange h-full rounded-md shadow-lg px-10 py-12
-                    transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105
-                    hover:shadow-2xl
-                    ">
-                        <ion-icon name="phone-portrait-outline" class="text-5xl text-dark"></ion-icon>
-                        <h2 class="text-2xl text-light font-bold pt-3">Full Stack Developer</h2>
-                        <p class="text-light text-base">Amazon</p>
-                        <p class="text-light text-sm">2019 - 2020</p>
-                        <p class="pt-4 text-dark">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ea facilis cupiditate minima, optio quos delectus! Veniam fugiat expedita accusantium perspiciatis praesentium dignissimos, deleniti earum illo ut aspernatur nulla dolores.
-                        </p>
-
-                    </div>
-
-                    <div class="z-20 bg-orange h-full rounded-md shadow-lg px-10 py-12
-                    transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105
-                    hover:shadow-2xl
-                    ">
-                        <ion-icon name="phone-portrait-outline" class="text-5xl text-dark"></ion-icon>
-                        <h2 class="text-2xl text-light font-bold pt-3">Data Scientist</h2>
-                        <p class="text-light text-base">Netflix</p>
-                        <p class="text-light text-sm">2020 - 2021</p>
-                        <p class="pt-4 text-dark">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ea facilis cupiditate minima, optio quos delectus! Veniam fugiat expedita accusantium perspiciatis praesentium dignissimos, deleniti earum illo ut aspernatur nulla dolores.
-                        </p>
-
-                    </div>
-
-                </div>
-
-            </div>
-        </section>
-
-        <!-- Education -->
-        <section id="Education" class="py-28 px-0 bg-orange h-screen">
-            <div class="max-w-6xl mx-auto">
-
-                <!-- Title -->
-                <div class="text-center">
-                    <h1 class="text-white text-6xl font-bold">Education</h1>
-                    <p class="text-dark font-bold pt-3">Here's where I have learn</p>
-                </div>
-
-                <!-- Cards -->
-                <div class="grid grid-cols-2 gap-10 mt-24">
-
-                    <div class="z-20 bg-light h-full rounded-md shadow-lg px-10 py-12
-                    transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105
-                    hover:shadow-2xl
-                    ">
-                        <ion-icon name="phone-portrait-outline" class="text-5xl text-dark"></ion-icon>
-                        <h2 class="text-2xl text-orange font-bold pt-3">City University of Hong Kong</h2>
-                        <p class="text-dark text-base">BSc Computer Science</p>
-                        <p class="text-dark text-sm">2017 - 2018</p>
-                        <p class="pt-4 text-dark">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ea facilis cupiditate minima, optio quos delectus! Veniam fugiat expedita accusantium perspiciatis praesentium dignissimos, deleniti earum illo ut aspernatur nulla dolores.
-                        </p>
-
-                    </div>
-
-                    <div class="z-20 bg-light h-full rounded-md shadow-lg px-10 py-12
-                    transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105
-                    hover:shadow-2xl
-                    ">
-                        <ion-icon name="phone-portrait-outline" class="text-5xl text-dark"></ion-icon>
-                        <h2 class="text-2xl text-orange font-bold pt-3">ABC High School</h2>
-                        <p class="text-dark text-base">Hong Kong</p>
-                        <p class="text-dark text-sm">2019 - 2020</p>
-                        <p class="pt-4 text-dark">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ea facilis cupiditate minima, optio quos delectus! Veniam fugiat expedita accusantium perspiciatis praesentium dignissimos, deleniti earum illo ut aspernatur nulla dolores.
-                        </p>
-
-                    </div>
-
-                </div>
-
-            </div>
-        </section>
-
-        <footer>
-            <div class="width-full">
-                <div class="flex justify-center flex-col p-12 text-center mx6 gap-y-3 text-light">
-                    <div class="mb-2">
-                        <h2 class="font-bold text-3xl">John Doe</h2>
-                    </div>
-
-                    <div class="flex flex-row gap-x-5 justify-center">
-                        <a href="">
-                            <ion-icon name="logo-youtube" class="hover:text-orange"></ion-icon>
-                        </a>
-                        <a href="">
-                            <ion-icon name="logo-twitter" class="hover:text-orange"></ion-icon>
-                        </a>
-                        <a href="">
-                            <ion-icon name="logo-linkedin" class="hover:text-orange"></ion-icon>
-                        </a>
-                        <a href="">
-                            <ion-icon name="logo-github" class="hover:text-orange"></ion-icon>
-                        </a>       
-                    </div>
-
-                    <div class="grid-cols-5 inline-grid gap-x-12">
-                        <a href="">About Me</a>
-                        <a href="">Work Experience</a>
-                        <a href="">Education</a>
-                        <a href="">Projects</a>
-                        <a href="">Contact Me</a>
-                    </div>
-
-                    <hr>
-
-                    <div class="mt-2">
-                        <p class="text-sm">&copy John Doe Copyright 2021</p>
-                    </div>
-
-                </div>
-            </div>
-        </footer>
-
-
-    </body>
+          <div class="mt-2">
+            <p class="text-sm">&copy John Doe Copyright 2021</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
